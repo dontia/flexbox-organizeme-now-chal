@@ -59,9 +59,8 @@ footer {
 }
 
 .header-content-wrapper {
-  /* Add a Flexbox property to make the header-content-wrapper a flex parent container. */
-
-  /* Add a Flexbox property to center the contents of the header. */
+  display: flex;
+  justify-content: center;
 
   /* Add a Flexbox property to align the contents at their center. */
 
