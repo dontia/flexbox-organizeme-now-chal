@@ -61,11 +61,8 @@ footer {
 .header-content-wrapper {
   display: flex;
   justify-content: center;
-
-  /* Add a Flexbox property to align the contents at their center. */
-
-  /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
-
+  align-items: center;
+  flex-flow: row wrap;
   width: 100%;
   padding-bottom: 50px;
 }
