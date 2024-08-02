@@ -77,10 +77,8 @@ footer {
 }
 
 .about-content-wrapper {
-  /* Add a Flexbox property to make the about-content-wrapper a flex parent container. */
-
-  /* Add a Flexbox property to center the paragraph in the header. */
-
+  display: flex;
+  justify-content: center;
 }
 
 .about-info {
