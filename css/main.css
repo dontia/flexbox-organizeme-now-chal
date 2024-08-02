@@ -53,10 +53,8 @@ footer {
 .content-wrapper {
   width: 90%;
   max-width: 1200px;
-  /* Add a Flexbox property to make the content-wrapper a flex parent container. */
-
-  /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
-
+  display: flex;
+  flex-flow: row wrap;
   margin: 50px 0;
 }
 
