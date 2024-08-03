@@ -189,8 +189,7 @@ footer {
 
 @media (min-width: 1200px) {
   .header-content-wrapper {
-    /* Add a justify-content property and value so that any extra space if the parent container is between the h1 and "Book a Consultation link.  */
-
+    justify-content: space-between;
   }
 
   h1 {
