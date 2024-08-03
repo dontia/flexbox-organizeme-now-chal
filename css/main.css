@@ -114,11 +114,8 @@ footer {
 .testimonial-content-wrapper {
   display: flex;
   justify-content: space-between;
-
-  /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
-
-  /* Add align-items: flex-start; so that the background adjusts to the height of the testimonial. */
-
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
 .testimonial {
