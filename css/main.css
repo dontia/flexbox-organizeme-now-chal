@@ -137,11 +137,9 @@ footer {
 }
 
 .icon-wrapper {
-  /* Add a Flexbox property to make the icon-wrapper a flex parent container. */
-
-  /* Add a Flexbox property to center the icons in their parent container. */
-
-  /* Add gap: 20px; to create space between the icons. */
+  display: flex;
+  justify-content: center;
+  gap: 20px
 }
 
 .contact-wrapper i {
