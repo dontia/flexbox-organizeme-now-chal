@@ -203,10 +203,8 @@ footer {
 
   .services-description {
     width: 25%;
-    /* Add flex-direction: column; so that the services card's child flex items are laid out in a column again. */
-
-    /* Add justify-content: flex-start; so the text is aligned at the top. */
-
+    flex-direction: column;
+    justify-content: flex-start;
     margin-bottom: 0;
   }
 
