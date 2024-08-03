@@ -127,12 +127,9 @@ footer {
 }
 
 .footer-content-wrapper {
-  /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
-
-  /* Add a justify-content property and value so that any extra space if the parent container is around the child flex items.  */
-
-  /* Add a Flexbox property to align the contents at their center. */
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contact-wrapper {
