@@ -159,8 +159,7 @@ footer {
   }
 
   .wrap-reverse {
-    /* Add flex-direction: row-reverse; to change the direction of the second service */
-
+    flex-direction: row-reverse;
   }
 
   .services-image {
