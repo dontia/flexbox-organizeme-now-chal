@@ -93,10 +93,8 @@ footer {
 
 .services-description {
   width: 100%;
-  /* Add a Flexbox property to make the services-content-wrapper a flex parent container. */
-
-  /* Add flex-direction: column; so that the services card's child flex items are laid out in a column. */
-
+  display: flex;
+  flex-direction: column;
   margin-bottom: 50px;
 }
 
